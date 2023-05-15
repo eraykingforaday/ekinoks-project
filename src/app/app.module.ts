@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MusteriEklemeComponent } from './musteri-ekleme/musteri-ekleme.component';
 import { UrunEklemeComponent } from './urun-ekleme/urun-ekleme.component';
 import { UrunGuncelleComponent } from './urun-guncelle/urun-guncelle.component';
+import { SiparisVerComponent } from './siparis-ver/siparis-ver.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MusteriEklemeComponent,
     UrunEklemeComponent,
-    UrunGuncelleComponent
+    UrunGuncelleComponent,
+    SiparisVerComponent
   ],
   imports: [
     BrowserModule,
