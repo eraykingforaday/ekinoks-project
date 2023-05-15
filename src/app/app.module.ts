@@ -7,6 +7,7 @@ import { MusteriEklemeComponent } from './musteri-ekleme/musteri-ekleme.componen
 import { UrunEklemeComponent } from './urun-ekleme/urun-ekleme.component';
 import { UrunGuncelleComponent } from './urun-guncelle/urun-guncelle.component';
 import { SiparisVerComponent } from './siparis-ver/siparis-ver.component';
+import { SiparisListeleComponent } from './siparis-listele/siparis-listele.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SiparisVerComponent } from './siparis-ver/siparis-ver.component';
     MusteriEklemeComponent,
     UrunEklemeComponent,
     UrunGuncelleComponent,
-    SiparisVerComponent
+    SiparisVerComponent,
+    SiparisListeleComponent
   ],
   imports: [
     BrowserModule,
