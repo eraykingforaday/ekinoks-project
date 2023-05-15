@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MusteriEklemeComponent } from './musteri-ekleme/musteri-ekleme.component';
 import { UrunEklemeComponent } from './urun-ekleme/urun-ekleme.component';
+import { UrunGuncelleComponent } from './urun-guncelle/urun-guncelle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MusteriEklemeComponent,
-    UrunEklemeComponent
+    UrunEklemeComponent,
+    UrunGuncelleComponent
   ],
   imports: [
     BrowserModule,
