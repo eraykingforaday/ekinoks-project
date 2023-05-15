@@ -10,6 +10,7 @@ import { SiparisVerComponent } from './siparis-ver/siparis-ver.component';
 import { SiparisListeleComponent } from './siparis-listele/siparis-listele.component';
 import { OrderDetailsComponent } from './order-details/order-details.component';
 import { KimlikDogrulamaComponent } from './kimlik-dogrulama/kimlik-dogrulama.component';
+import { KayitOturumComponent } from './kayit-oturum/kayit-oturum.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { KimlikDogrulamaComponent } from './kimlik-dogrulama/kimlik-dogrulama.co
     SiparisVerComponent,
     SiparisListeleComponent,
     OrderDetailsComponent,
-    KimlikDogrulamaComponent
+    KimlikDogrulamaComponent,
+    KayitOturumComponent
   ],
   imports: [
     BrowserModule,
