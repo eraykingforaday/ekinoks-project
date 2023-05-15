@@ -8,6 +8,7 @@ import { UrunEklemeComponent } from './urun-ekleme/urun-ekleme.component';
 import { UrunGuncelleComponent } from './urun-guncelle/urun-guncelle.component';
 import { SiparisVerComponent } from './siparis-ver/siparis-ver.component';
 import { SiparisListeleComponent } from './siparis-listele/siparis-listele.component';
+import { OrderDetailsComponent } from './order-details/order-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SiparisListeleComponent } from './siparis-listele/siparis-listele.compo
     UrunEklemeComponent,
     UrunGuncelleComponent,
     SiparisVerComponent,
-    SiparisListeleComponent
+    SiparisListeleComponent,
+    OrderDetailsComponent
   ],
   imports: [
     BrowserModule,
